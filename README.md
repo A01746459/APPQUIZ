@@ -15,38 +15,34 @@ git clone https://github.com/A01746459/APPQUIZ.git
 
 2. Navigate to the project directory:
 ```
-cd APPQUIZ\AppQuiz`
+cd ...\AppQuiz`
 ```
+
+![instrucciones](https://github.com/A01746459/APPQUIZ/assets/65176372/68e3774b-d5f3-4765-9739-c720208957c8)
 
 3. Activate a virtual environment:
 ```
 .\Scripts\activate
 ```
-```
-cd (AppQuiz) PS c:\Users\......\APPQUIZ\AppQuiz
-```
+
+![instrucciones1](https://github.com/A01746459/APPQUIZ/assets/65176372/5d4481ad-940c-46dd-914d-0a9235ce13e8)
 
 4. Navigate to Aplicativo
 ```
 cd Aplicativo
 ```
-```
-(AppQuiz) PS c:\Users\......\APPQUIZ\AppQuiz\Aplicativo
-```
-      
+
 5. Start the development server:
 ```
 python .\manage.py runserver
 ```    
 
-## Example
-
-![instrucciones](https://github.com/A01746459/APPQUIZ/assets/65176372/68e3774b-d5f3-4765-9739-c720208957c8)
-
-![instrucciones1](https://github.com/A01746459/APPQUIZ/assets/65176372/5d4481ad-940c-46dd-914d-0a9235ce13e8)
-
 ![instrucciones2](https://github.com/A01746459/APPQUIZ/assets/65176372/5b17cfab-56af-4dc8-8059-ddcf4e2a9d80)
 
+6- Login to the server
+```  
+https://127.0.0.1:8000
+```  
 
 ## Diagram(s) of the system and its constituent parts.
 

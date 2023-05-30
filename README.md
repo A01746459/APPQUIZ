@@ -59,5 +59,7 @@ During the development of the quiz app, we consider that, the best Design patter
 As a group, we consider that we did a great work as a team.
 
 References
-- programadorY. (2021, March 30). Aprende a crear una App de Quiz con Django. Introducción [Video file]. Retrieved from https://www.youtube.com/watch?v=3OJxDX14A3A&list=PLZyaZrHcg9P7RWc5IotQNwQfVZVAnpySe         
+- programadorY. (2021, March 30). Aprende a crear una App de Quiz con Django. Introducción [Video file]. Retrieved from https://www.youtube.com/watch?v=3OJxDX14A3A&list=PLZyaZrHcg9P7RWc5IotQNwQfVZVAnpySe  
+- freeCodeCamp.org. (2023, March 22). Django Project – Code a CRM App Tutorial [video file]. Retrieved from https://www.youtube.com/watch?v=t10QcFx7d5k
+       
 

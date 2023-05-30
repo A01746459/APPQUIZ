@@ -53,7 +53,7 @@ python .\manage.py runserver
 ![DiagramaAppQuiz](https://github.com/A01746459/APPQUIZ/assets/65176372/e4155a87-f55b-4a80-b301-ab72e0e4c5f7)
 
 ## Design Pattern Review
-During the development of the quiz app, I consider that, the best Design pattern that we can use is the Model View Template, here are the reasons:
+During the development of the quiz app, we consider that, the best Design pattern that we can use is the Model View Template, here are the reasons:
 
 - The Model will be in charge of the management of the questions, answers and users.
 - The View will be the interface in which the user data is presented, here will be shown the questions and the answers will be collected.

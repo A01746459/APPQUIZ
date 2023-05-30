@@ -67,7 +67,7 @@ During the development of the quiz app, we consider that, the best Design patter
 - The view renders a template with the question results.
 - The user sees the results in the browser.
 
-![MVT](https://github.com/A01746459/APPQUIZ/assets/65176372/00680f55-5d29-4b34-916c-7207bffc51a6)
+![MVT](https://github.com/A01746459/APPQUIZ/assets/65176372/2f4d2c4c-8d23-4efe-b890-22cc9aec91fe)
 
 ## Feedback 
 As a group, we consider that we did a great work as a team.

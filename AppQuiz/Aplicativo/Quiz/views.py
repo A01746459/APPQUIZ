@@ -15,21 +15,17 @@ from django.contrib.auth import authenticate, login, logout
 from .forms import RegistroFormulario, UsuarioLoginFormulario
 from .models import QuizUsuario, Pregunta, PreguntasRespondidas
 
-# In this Function, 
+# In this Function, we send a request from inicio.html
 def inicio(request):
-    context = {
-        'bienvenido': 'Bienvenido'
-    }
     
-    return render(request, 'inicio.html', context)
+    return render(request, 'inicio.html')
 
-# In this Function, 
+# In this Function, we send a request from Usuario/home.html
 def HomeUsuario(request):
     return render(request, 'Usuario/home.html')
 
-# In this Function, 
+# In this Function, jugar.html is being set to function 
 def jugar(request):
-    
 	QuizUser, created = QuizUsuario.objects.get_or_create(usuario=request.user)
 	
 	if request.method == 'POST':
@@ -117,3 +113,9 @@ def registro(request):
 def logout_vista(request):
     logout(request)
     return redirect('/')
+
+"""
+def intento(request):
+   PreguntasRespondidas.objects.all().delete()
+   return redirect(request, 'HomeUsuario')
+"""

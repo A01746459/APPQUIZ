@@ -17,7 +17,7 @@ from django.contrib.auth import authenticate, get_user_model
 
 User = get_user_model()
 
-# In this class, 
+# In this class, the answer is being validated.
 class ChooseInlineFormSet(forms.BaseInlineFormSet):
     def clean(self):
         super(ChooseInlineFormSet, self).clean()
@@ -53,7 +53,7 @@ class UsuarioLoginFormulario(forms.Form):
                 raise forms.ValidationError("Usuario inactivo")
         return super(UsuarioLoginFormulario, self).clean(*args, **kwargs)
 
-# In this class, there is a validation and creation of a
+# In this class, there is a validation and creation of a new User. 
 class RegistroFormulario(UserCreationForm):
     email = forms.EmailField(required=True)
     first_name = forms.CharField(required=True)

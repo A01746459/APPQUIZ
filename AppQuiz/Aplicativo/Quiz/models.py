@@ -15,7 +15,7 @@ from django.conf import settings
 from django.contrib.auth.models import User
 import random
 
-# In this class, 
+# In this class, The quiz questions are being configurated
 class Pregunta(models.Model):
     NUMERO_DE_RESPUESTAS_PERMITIDAS = 1
     texto = models.TextField(verbose_name='texto de la pregunta')
@@ -24,7 +24,7 @@ class Pregunta(models.Model):
     def __str__(self):
         return self.texto
 
-# In this class,
+# In this class, the admin can choose wich answer is the right one and to create more posible questions. 
 class ChooseAnswer(models.Model):
     MAXIMO_RESPUESTA = 4
     pregunta = models.ForeignKey(Pregunta, related_name='opciones', on_delete=models.CASCADE)
@@ -34,7 +34,7 @@ class ChooseAnswer(models.Model):
     def __str__(self):
         return self.texto
     
-# In this class,     
+# In this class, the app is configurated with: default user score, random questions, validation for answers, and score updates   
 class QuizUsuario(models.Model):
     usuario = models.OneToOneField(User, on_delete=models.CASCADE)
     puntaje_total = models.DecimalField(verbose_name='Puntaje Total', default=0, decimal_places=2, max_digits=10)
@@ -72,7 +72,7 @@ class QuizUsuario(models.Model):
         self.puntaje_total=puntaje_actualizado
         self.save()
 
-# In this class, 
+# In this class, all the variables are being determined with their type and freign key
 class PreguntasRespondidas(models.Model):
     quizUser = models.ForeignKey(QuizUsuario, on_delete=models.CASCADE, related_name='intentos')
     pregunta = models.ForeignKey(Pregunta, on_delete=models.CASCADE)

@@ -39,7 +39,7 @@ python .\manage.py runserver
 
 ![instrucciones2](https://github.com/A01746459/APPQUIZ/assets/65176372/5b17cfab-56af-4dc8-8059-ddcf4e2a9d80)
 
-6- Login to the server
+6. Login to the server
 ```  
 https://127.0.0.1:8000
 ```  

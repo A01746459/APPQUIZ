@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+
+<div class="container">
+    <h1 class="text-center my-4">
+        <span class="badge badge-info">
+            The {{contar_user}} best Players
+        </span>
+    </h1>
+    <table class="table table-striped table bodered">
+        <thead>
+            <tr>
+                <th>Place</th>
+                <th>User</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user_quiz in usuario_quiz %}
+            <tr>
+                <th>{{forloop.counter}}</th>
+                <th>{{user_quiz.usuario.username}}</th>
+                <th>{{user_quiz.puntaje_total}}</th>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h2 class="badge badge-info">YOUR SCORE IS:</h2>
+    {% for x in usuario_quiz %}
+    {% if x.usuario.id == user.id %}
+    <tr>    
+    <h2>{{x.puntaje_total}}</h2> 
+    </tr>
+    {% endif %} 
+    {% endfor %}
+</div>  
+    <a href="{% url 'inicio' %}">
+		<button style="margin-left: 90px;">
+			HOME
+		</button>
+        
+	</a>
+</table>
+<div>
+    
+</div>
+{% endblock %}

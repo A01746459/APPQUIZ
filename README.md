@@ -10,6 +10,9 @@
 
 The APPQUIZ is a web application that allows users to participate in a quizz by answering questions related to software architecture, design patterns and SOLID principles and keeping track of their scores. Users can also view the leaderboard to see the top scorers.
 
+## Functionality Video
+https://drive.google.com/drive/folders/1wzEHMk0qw1roMSKuKUkuK6H3rikv-YtH?usp=sharing
+
 ## Installation (Locally)
 
 1. Clone the repository:

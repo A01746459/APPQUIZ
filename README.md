@@ -1,10 +1,14 @@
 # APPQUIZ
 
 <h2> Team members </h2>
-<div> - Jeovani Hernandez Bastida | A01749164 </div>
-<div> - José Miguel Garcia Gurtubay Moreno | A01373750 </div>
-<div> - Sebastian Burgos Alanís | A01746459 </div>
-<div> - Sandra Ximena Téllez Olvera | A01752142 </div>
+<div> * Jeovani Hernandez Bastida | A01749164 </div>
+<div> * José Miguel Garcia Gurtubay Moreno | A01373750 </div>
+<div> * Sebastian Burgos Alanís | A01746459 </div>
+<div> * Sandra Ximena Téllez Olvera | A01752142 </div>
+
+## General overview
+
+The APPQUIZ is a web application that allows users to participate in quizzes by answering questions related to software architecture, design patterns and SOLID principles and keeping track of their scores. Users can also view the leaderboard to see the top scorers.
 
 ## Installation (Locally)
 

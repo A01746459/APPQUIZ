@@ -1,10 +1,14 @@
 # APPQUIZ
 
 <h2> Team members </h2>
-<div> - Jeovani Hernandez Bastida | A01749164 </div>
-<div> - José Miguel Garcia Gurtubay Moreno | A01373750 </div>
-<div> - Sebastian Burgos Alanís | A01746459 </div>
-<div> - Sandra Ximena Téllez Olvera | A01752142 </div>
+<div> * Jeovani Hernandez Bastida | A01749164 </div>
+<div> * José Miguel Garcia Gurtubay Moreno | A01373750 </div>
+<div> * Sebastian Burgos Alanís | A01746459 </div>
+<div> * Sandra Ximena Téllez Olvera | A01752142 </div>
+
+## General overview
+
+The APPQUIZ is a web application that allows users to participate in quizzes by answering questions related to software architecture, design patterns and SOLID principles and keeping track of their scores. Users can also view the leaderboard to see the top scorers.
 
 ## Installation (Locally)
 
@@ -54,6 +58,20 @@ During the development of the quiz app, we consider that, the best Design patter
 - The Model will be in charge of the management of the questions, answers and users.
 - The View will be the interface in which the user data is presented, here will be shown the questions and the answers will be collected.
 - The Template will manage the events, like the choosing of answers or the presentation of the next question.
+
+## The flow of the app using the MVT pattern would be the following:
+
+- The user requests a question through a specific URL.
+- Django maps that URL to a corresponding view.
+- The view retrieves the question and answer options from the model.
+- The view renders a template with the question and answer options.
+- The user selects a response and sends the request to the server.
+- Django maps that request to a corresponding view.
+- The view processes the user's response, checks its validity, and updates the data as needed.
+- The view renders a template with the question results.
+- The user sees the results in the browser.
+
+![MVT](https://github.com/A01746459/APPQUIZ/assets/65176372/2f4d2c4c-8d23-4efe-b890-22cc9aec91fe)
 
 ## Feedback 
 As a group, we consider that we did a great work as a team.

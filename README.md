@@ -8,7 +8,7 @@
 
 ## General overview
 
-The APPQUIZ is a web application that allows users to participate in quizzes by answering questions related to software architecture, design patterns and SOLID principles and keeping track of their scores. Users can also view the leaderboard to see the top scorers.
+The APPQUIZ is a web application that allows users to participate in a quizz by answering questions related to software architecture, design patterns and SOLID principles and keeping track of their scores. Users can also view the leaderboard to see the top scorers.
 
 ## Installation (Locally)
 
@@ -56,7 +56,7 @@ https://127.0.0.1:8000
 During the development of the quiz app, we consider that, the best Design pattern that we can use is the Model View Template, here are the reasons:
 
 - The Model will be in charge of the management of the questions, answers and users.
-- The View will be the interface in which the user data is presented, here will be shown the questions and the answers will be collected.
+- The View will be the interface in which the user data is presented, there, the questions and the answers will be collected.
 - The Template will manage the events, like the choosing of answers or the presentation of the next question.
 
 ## The flow of the app using the MVT pattern would be the following:
@@ -74,10 +74,9 @@ During the development of the quiz app, we consider that, the best Design patter
 ![MVT](https://github.com/A01746459/APPQUIZ/assets/65176372/2f4d2c4c-8d23-4efe-b890-22cc9aec91fe)
 
 ## Feedback 
-As a group, we consider that we did a great work as a team.
+As a group, we all worked hand by hand. We had a little of problems at the end, but we managed to carry on and we delivered the work in place and time. 
 
 References
 - programadorY. (2021, March 30). Aprende a crear una App de Quiz con Django. Introducción [Video file]. Retrieved from https://www.youtube.com/watch?v=3OJxDX14A3A&list=PLZyaZrHcg9P7RWc5IotQNwQfVZVAnpySe  
 - freeCodeCamp.org. (2023, March 22). Django Project – Code a CRM App Tutorial [video file]. Retrieved from https://www.youtube.com/watch?v=t10QcFx7d5k
-       
-
+- Martin, R. C. (2003). The Principles of OOD (SOLID). Retrieved from https://web.archive.org/web/20190517172845/https://web.archive.org/web/20190517172845/http://www.butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod       

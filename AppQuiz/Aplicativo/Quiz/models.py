@@ -68,8 +68,11 @@ class QuizUsuario(models.Model):
     def actualizar_puntaje(self):
         puntaje_actualizado = self.intentos.filter(correcta=True).aggregate(
             models.Sum('puntaje_obtenido'))['puntaje_obtenido__sum']
-        
-        self.puntaje_total=puntaje_actualizado
+        if puntaje_actualizado is not None:
+            self.puntaje_total = puntaje_actualizado
+        else:
+            self.puntaje_total = 0
+
         self.save()
 
 # In this class, all the variables are being determined with their type and freign key

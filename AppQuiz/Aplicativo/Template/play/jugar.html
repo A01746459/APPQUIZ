@@ -46,11 +46,10 @@
 {% if pregunta is None %}
 
 <div class="container">
-	<p><b>user: </b>{{user}}</p> 
-
+	<p><b>user: </b>{{user}}</p>
 	<div class="jumbotron my-4">
-		<h1>You have answer every question, click down below to see the score</h1>
-		<a href="{% url 'tablero' %}">down below</a>
+		<h1>Ya haz respondido a todas nuestras preguntas. Mira el tablero de posiciones</h1>
+		<a href="{% url 'tablero' %}">Ver Aqui</a>
 	</div>
 </div>
 
@@ -79,7 +78,7 @@
 			{% endfor %}
 
 			<button type="submit" class="btn btn-success">
-				Send
+				Enviar
 			</button>
 
 		</form>
